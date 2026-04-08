@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
+import profileImage from '@/assets/bcodes.jpeg'
 
 const navItems = [
   { label: 'About', href: '#about' },
@@ -15,11 +16,18 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50'>
       <div className='max-w-5xl mx-auto flex items-center justify-between h-16 px-6'>
-        <a href='#' className='font-display font-bold text-lg tracking-tight'>
+        <a
+          href='#'
+          className='inline-flex items-center gap-2 font-display font-bold text-lg tracking-tight'
+        >
+          <img
+            src={profileImage}
+            alt='Gbenga portrait'
+            className='w-12 h-12 rounded-full object-cover border border-border'
+          />
           Gbenga<span className='text-accent'>Olasebikan</span>
         </a>
 
-        {/* Desktop */}
         <ul className='hidden md:flex items-center gap-8'>
           {navItems.map((item) => (
             <li key={item.label}>
