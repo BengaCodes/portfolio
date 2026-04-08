@@ -2,6 +2,7 @@ import AboutSection from '@/components/About'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/Hero'
 import Navbar from '@/components/Nav/Navbar'
+import ProjectsSection from '@/components/Projects'
 import SkillsSection from '@/components/Skills'
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <AboutSection />
         <SkillsSection />
       </div>
+      <ProjectsSection />
       <Footer />
     </div>
   )
