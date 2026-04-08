@@ -26,7 +26,7 @@ const Navbar = () => {
             className='w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border border-border shrink-0'
           />
           <span className='truncate'>
-            Gbenga <span className='text-accent hidden sm:inline'>Olasebikan</span>
+            Gbenga <span className='text-accent sm:inline'>Olasebikan</span>
           </span>
         </a>
 
