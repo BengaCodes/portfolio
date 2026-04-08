@@ -33,7 +33,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile toggle */}
         <button
           className='md:hidden p-2 text-foreground'
           onClick={() => setOpen(!open)}
