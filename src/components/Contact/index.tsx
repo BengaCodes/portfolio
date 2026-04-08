@@ -87,13 +87,13 @@ const ContactSection = () => {
             </div>
           </form>
 
-          <div className='flex justify-center gap-4'>
+          <div className='grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:justify-center sm:gap-4'>
             {links.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
                 target='_blank'
-                className='inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-border bg-background text-foreground font-display font-medium text-sm hover:border-accent hover:text-accent transition-colors duration-200'
+                className='inline-flex items-center justify-center gap-2 px-3 sm:px-5 py-3 rounded-xl border border-border bg-background text-foreground font-display font-medium text-sm hover:border-accent hover:text-accent transition-colors duration-200'
               >
                 <link.icon className='w-4 h-4' />
                 {link.label}

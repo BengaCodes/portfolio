@@ -15,17 +15,19 @@ const Navbar = () => {
 
   return (
     <nav className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50'>
-      <div className='max-w-5xl mx-auto flex items-center justify-between h-16 px-6'>
+      <div className='max-w-5xl mx-auto flex items-center justify-between h-16 px-4 sm:px-6 gap-3'>
         <a
           href='#'
-          className='inline-flex items-center gap-2 font-display font-bold text-lg tracking-tight'
+          className='min-w-0 inline-flex items-center gap-2 sm:gap-3 font-display font-bold tracking-tight text-base sm:text-lg'
         >
           <img
             src={profileImage}
             alt='Gbenga portrait'
-            className='w-12 h-12 rounded-full object-cover border border-border'
+            className='w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border border-border shrink-0'
           />
-          Gbenga<span className='text-accent'>Olasebikan</span>
+          <span className='truncate'>
+            Gbenga <span className='text-accent hidden sm:inline'>Olasebikan</span>
+          </span>
         </a>
 
         <ul className='hidden md:flex items-center gap-8'>
@@ -42,7 +44,7 @@ const Navbar = () => {
         </ul>
 
         <button
-          className='md:hidden p-2 text-foreground'
+          className='md:hidden p-2 text-foreground shrink-0'
           onClick={() => setOpen(!open)}
           aria-label='Toggle menu'
         >
@@ -52,7 +54,7 @@ const Navbar = () => {
 
       {open && (
         <motion.div
-          className='md:hidden bg-background border-b border-border px-6 pb-6'
+          className='md:hidden bg-background border-b border-border px-4 sm:px-6 pb-6'
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
         >
