@@ -88,7 +88,7 @@ export const projects = [
       'Created a focused revision experience for GCSE/A‑Level students with exam‑aligned playlists, verified educators, and a distraction‑free feed — transforming scrolling into purposeful micro‑learning.',
     metrics: [
       'Safer learning environment',
-      ' Higher trust from parents/teachers',
+      'Better access to community info and updates',
       'Reduced doom‑scrolling'
     ],
     link: 'https://docs.google.com/document/d/1cN_xdfk0AtfRxN5n8juCsFwiUItYKg2qhebPvatNqEU/edit?tab=t.0#heading=h.z6ne0og04bp5'
