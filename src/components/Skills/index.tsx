@@ -1,17 +1,5 @@
-import { skills } from '@/lib/data'
+import { originColors, originLabels, skills } from '@/lib/data'
 import { motion } from 'framer-motion'
-
-const originColors: Record<string, string> = {
-  dev: 'bg-primary/10 text-primary',
-  pm: 'bg-accent/10 text-accent',
-  both: 'bg-muted text-muted-foreground'
-}
-
-const originLabels: Record<string, string> = {
-  dev: 'Engineering',
-  pm: 'Product',
-  both: 'Hybrid'
-}
 
 const SkillsSection = () => {
   return (

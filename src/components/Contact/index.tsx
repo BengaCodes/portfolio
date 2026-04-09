@@ -1,21 +1,10 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, Send } from 'lucide-react'
+import { Send } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
-import { FaLinkedin, FaGithub } from 'react-icons/fa'
-
-const links = [
-  { icon: Mail, label: 'Email', href: 'mailto:benga.olasebikan@gmail.com' },
-  { icon: Phone, label: 'Telephone', href: 'tel:+447539529701' },
-  {
-    icon: FaLinkedin,
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/benga-olasebikan'
-  },
-  { icon: FaGithub, label: 'GitHub', href: 'https://github.com/BengaCodes' }
-]
+import { links } from '@/lib/data'
 
 const ContactSection = () => {
   const [name, setName] = useState('')

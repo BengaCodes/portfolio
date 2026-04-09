@@ -1,56 +1,6 @@
+import { projects } from '@/lib/data'
 import { motion } from 'framer-motion'
 import { ExternalLink } from 'lucide-react'
-
-const projects = [
-  {
-    tag: '0 → 1 Product',
-    title: 'Uber Round‑Up',
-    description:
-      'Designed a micro‑savings feature that lets riders automatically round up fares and build Uber Credit. Increased retention by turning passive behaviour into habitual engagement.',
-    metrics: [
-      'Passive micro‑savings',
-      'Higher repeat rides',
-      'Reduced payment friction'
-    ],
-    link: 'https://docs.google.com/document/d/1wJM5vIllYXZ8P7c3ALz4OjmH6o-x_fLDZKcG_6bu1qs/edit?tab=t.0'
-  },
-  {
-    tag: 'COMMUNITY IMPACT',
-    title: 'Sporting Kids Website',
-    description:
-      'Designed and built a modern website for a community sports organisation, helping parents discover programmes and increasing sign‑ups for kids’ activities.',
-    metrics: [
-      'Clearer programme discovery',
-      ' Higher trust from parents/teachers',
-      'Increased trust + credibility for the business'
-    ],
-    link: 'https://www.sportingkids.co.uk'
-  },
-  {
-    tag: 'CONSUMER PRODUCT STRATEGY',
-    title: 'TikTok Study Mode',
-    description:
-      'Created a focused revision experience for GCSE/A‑Level students with exam‑aligned playlists, verified educators, and a distraction‑free feed — transforming scrolling into purposeful micro‑learning.',
-    metrics: [
-      'Safer learning environment',
-      ' Higher trust from parents/teachers',
-      'Reduced doom‑scrolling'
-    ],
-    link: 'https://docs.google.com/document/d/1cN_xdfk0AtfRxN5n8juCsFwiUItYKg2qhebPvatNqEU/edit?tab=t.0#heading=h.z6ne0og04bp5'
-  },
-  {
-    tag: '0 → 1 PRODUCT',
-    title: 'Budgy App',
-    description:
-      'Building a lightweight budgeting tool focused on clarity, habit‑building, and reducing financial stress for young professionals.',
-    metrics: [
-      ' Simple, intuitive UI',
-      ' Behaviour‑driven design',
-      'Built from real user pain points'
-    ],
-    link: '#'
-  }
-]
 
 const ProjectsSection = () => {
   return (
