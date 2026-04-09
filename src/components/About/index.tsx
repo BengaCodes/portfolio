@@ -18,27 +18,46 @@ const AboutSection = () => {
             <h3 className='text-3xl sm:text-4xl font-display font-bold leading-tight'>
               From shipping code
               <br />
-              to shaping strategy
+              to shaping outcomes
             </h3>
           </div>
 
           <div className='md:col-span-3 space-y-5 text-muted-foreground font-body leading-relaxed text-base'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              I’m a people‑first builder who thrives on strong relationships and
+              collaborative problem‑solving. Over the years, I’ve built
+              meaningful connections across teams and disciplines — the kind
+              that make work better, faster, and more enjoyable. Bringing people
+              together is something I naturally gravitate toward, and it’s
+              shaped the way I approach both engineering and product thinking.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              My curiosity for the{' '}
+              <span className=' font-bold italic'>why</span> behind products
+              started long before I wrote my first line of code. Working in
+              wealth management, I saw firsthand how deeply people value
+              products that genuinely serve them. Clients lit up when they felt
+              understood and supported — and that experience stayed with me. It
+              taught me that great products aren’t just built; they’re cared
+              for, shaped, and stewarded with intention.
             </p>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              That’s what drives my transition into product management: the
+              desire to play a bigger role in the life of a product, not just
+              how it’s built. I want to influence the decisions, the strategy,
+              and the outcomes that ultimately make a difference to users.
+            </p>
+            <p>
+              Outside of work, I’m a big sports person. I love playing and
+              watching golf, and I’m a lifelong Arsenal fan. A ruptured Achilles
+              in 2022 put an end to my football‑playing days, but it didn’t dull
+              my love for the game. I still play most racquet sports and stay
+              active wherever I can — competition and movement have always been
+              part of who I am.
+            </p>
+            <p>
+              At my core, I’m someone who cares about people, loves solving
+              problems, and enjoys building things that matter.
             </p>
           </div>
         </motion.div>

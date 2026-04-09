@@ -35,8 +35,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          A developer who speaks the language of code and customers. Bridging
-          engineering depth with product thinking to ship what matters.
+          I’m a people‑first engineer transitioning into product management —
+          blending modern frontend expertise with user empathy, clear
+          communication, and a drive to build products that genuinely matter.
         </motion.p>
 
         <motion.a

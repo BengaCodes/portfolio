@@ -1,56 +1,5 @@
+import { skills } from '@/lib/data'
 import { motion } from 'framer-motion'
-import {
-  Code2,
-  Users,
-  BarChart3,
-  Lightbulb,
-  GitBranch,
-  MessageSquare
-} from 'lucide-react'
-
-const skills = [
-  {
-    icon: Code2,
-    title: 'Technical Architecture',
-    description:
-      'System design, API strategy, and understanding trade-offs at scale.',
-    origin: 'dev'
-  },
-  {
-    icon: Users,
-    title: 'User Research',
-    description:
-      'Customer interviews, journey mapping, and turning insights into requirements.',
-    origin: 'pm'
-  },
-  {
-    icon: BarChart3,
-    title: 'Data-Driven Decisions',
-    description: 'Analytics, A/B testing frameworks, and metrics that matter.',
-    origin: 'both'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Product Strategy',
-    description:
-      'Roadmap prioritization, OKRs, and aligning teams around outcomes.',
-    origin: 'pm'
-  },
-  {
-    icon: GitBranch,
-    title: 'Agile Delivery',
-    description:
-      'Sprint planning, backlog grooming, and shipping with velocity.',
-    origin: 'both'
-  },
-  {
-    icon: MessageSquare,
-    title: 'Cross-Functional Comms',
-    description:
-      'Translating between engineering, design, and business stakeholders.',
-    origin: 'both'
-  }
-]
 
 const originColors: Record<string, string> = {
   dev: 'bg-primary/10 text-primary',
