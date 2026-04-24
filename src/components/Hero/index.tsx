@@ -35,9 +35,15 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          I’m a people‑first engineer transitioning into product management —
-          blending modern frontend expertise with user empathy, clear
-          communication, and a drive to build products that genuinely matter.
+          <span className='mb-2.5 block'>
+            I’m a people‑first engineer transitioning into product management —
+            blending modern frontend expertise with user empathy, clear
+            communication, and a drive to build products that genuinely matter.
+          </span>
+          <span>
+            I've spent years building the things PMs spec. Now I want to be in
+            the room deciding what gets built and why.
+          </span>
         </motion.p>
 
         <motion.a

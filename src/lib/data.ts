@@ -73,7 +73,7 @@ export const projects = [
     tag: 'COMMUNITY IMPACT',
     title: 'Sporting Kids Website',
     description:
-      'Designed and built a modern website for a community sports organisation, helping parents discover programmes and increasing sign‑ups for kids’ activities.',
+      'Sporting kids is a sports organisation that supports its local community in Hemel Hempstead and surrounding areas. I created a website that allows parents and schools to easily discover programmes whilst increasing sign‑ups for kids’ activities.',
     metrics: [
       'Clearer programme discovery',
       ' Higher trust from parents/teachers',
