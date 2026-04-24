@@ -61,7 +61,7 @@ export const projects = [
     tag: '0 → 1 Product',
     title: 'Uber Round‑Up',
     description:
-      'Designed a micro‑savings feature that lets riders automatically round up fares and build Uber Credit. Increased retention by turning passive behaviour into habitual engagement.',
+      'Uber has a wallet product almost nobody uses. I designed a passive savings mechanism to change that.',
     metrics: [
       'Passive micro‑savings',
       'Higher repeat rides',
