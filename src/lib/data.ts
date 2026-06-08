@@ -67,7 +67,7 @@ export const projects = [
       'Higher repeat rides',
       'Reduced payment friction'
     ],
-    link: 'https://docs.google.com/document/d/1wJM5vIllYXZ8P7c3ALz4OjmH6o-x_fLDZKcG_6bu1qs/edit?tab=t.0'
+    link: 'https://docs.google.com/document/d/1zSNOFv9Uw2KAw1lqBeNXuDdzbvj7a55Z/edit'
   },
   {
     tag: 'COMMUNITY IMPACT',
