@@ -22,11 +22,11 @@ const Navbar = () => {
         >
           <img
             src={profileImage}
-            alt='Gbenga portrait'
+            alt='Ben Lash portrait'
             className='w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border border-border shrink-0'
           />
           <span className='truncate'>
-            Gbenga <span className='text-accent sm:inline'>Olasebikan</span>
+            Ben <span className='text-accent sm:inline'>Lash</span>
           </span>
         </a>
 
